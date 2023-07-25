@@ -1,0 +1,13 @@
+if [ -f ./system.jffs2  ]; then
+	rm cam_babyEU.img system.jffs2
+fi
+
+mkfs.jffs2 -d ./system -l -e 0x8000 -s 0x1000 -o system.jffs2
+
+sleep 1
+
+dd if=u-boot-with-spl.bin of=cam_babyEU.img  seek=0
+dd if=uImage 			  of=cam_babyEU.img bs=1k seek=256
+dd if=rootfs.squashfs 	  of=cam_babyEU.img bs=1k seek=2816
+dd if=tuya_uuid_key.ini   of=cam_babyEU.img bs=1k seek=4864
+dd if=system.jffs2 		  of=cam_babyEU.img bs=1k seek=5120

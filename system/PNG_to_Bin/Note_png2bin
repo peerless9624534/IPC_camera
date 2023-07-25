@@ -1,0 +1,5 @@
+sudo apt install imagemagick 安装工具
+使用convert MOMWILIKE_106x58.png logodata_106x58.BGRA 将png图片转为BGRA形式的文件
+重命名为logodata_106x58.bin
+将.bin文件放入对应版本的/system/bin/logo中
+

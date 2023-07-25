@@ -1,0 +1,6 @@
+
+if [ -f ./rootfs.squashfs ]; then
+	rm rootfs.squashfs
+fi
+
+fakeroot mksquashfs rootfs ./rootfs.squashfs -b 64K -comp xz

@@ -1,0 +1,14 @@
+#!/bin/sh
+
+str1=$(ifconfig wlan0 |awk 'NR==1{split($1,arr," ");print arr[1]}')
+str2="wlan0"
+
+if [[ ${str1} == ${str2} ]];
+then
+	echo "[SUCCESS]Find wlan0"
+else 
+	echo "[ERROR] Can't find wlan0"
+	echo "[ERROR] reboot"
+	reboot
+fi
+

@@ -1,0 +1,3 @@
+#!/bin/sh
+git config remote.origin.push refs/heads/*:refs/for/*
+

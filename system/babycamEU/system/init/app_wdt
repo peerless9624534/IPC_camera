@@ -1,0 +1,10 @@
+#!/bin/sh
+
+while [ 1 ]; do
+	sleep 10
+	ps | grep media_sample | grep -v grep > /dev/null 2>&1
+	if [ $? -ne 0 ]; then
+		reboot
+	fi
+done
+

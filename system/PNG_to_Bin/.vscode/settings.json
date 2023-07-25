@@ -1,0 +1,11 @@
+{
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "logodata_eu_106x58_bgra.h": "c",
+        "logodata_436x236_bgra.h": "c",
+        "logodata_106x58_bgra.h": "c",
+        "logodata_eu_382x88_bgra.h": "c",
+        "logodata_eu_436x236_bgra.h": "c",
+        "logodata_382x88_bgra.h": "c"
+    }
+}

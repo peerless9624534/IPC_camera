@@ -1,0 +1,1 @@
+cmd_/home/panyu/share/drivers/i2c/sample_eeprom/eeprom_at24.ko := mips-linux-gnu-ld -r  -m elf32ltsmip -T /home/panyu/share/kernel_ptz/kernel/scripts/module-common.lds --build-id  -o /home/panyu/share/drivers/i2c/sample_eeprom/eeprom_at24.ko /home/panyu/share/drivers/i2c/sample_eeprom/eeprom_at24.o /home/panyu/share/drivers/i2c/sample_eeprom/eeprom_at24.mod.o

@@ -1,0 +1,53 @@
+LUXSHARE_IPC 
+===========================
+
+###########环境依赖
+node v0.10.28+
+redIs ~
+
+###########部署步骤
+1. 添加系统环境变量
+    export .....
+
+
+2. .... install  //安装....运行环境
+
+3. gulp build   //前端编译
+
+4. 启动两个配置(已forever为例)
+FOR EXAMPLE:
+    eg: forever start app-service.js
+        forever start logger-service.js
+
+
+###########目录结构描述
+├── README                      //help
+├── doc                         //文档
+├── .config                     //编译功能的配置文件
+├── build                       //makefile 编译以及头文件包含配置
+├── mian.c                      //app的主函数
+├── common                      //模块通用的资源
+├── hal                         //硬件抽象层
+│    └──led                     //板载led灯控制
+├── include                     //公用的头文件
+├── libs                        //相关的库文件
+├── imp                         //imp库功能函数
+├── sysutils                    //sysutils库功能函数
+├── sample                      //君正和涂鸦的sample程序
+├── mouldes                     //程序各个功能模块 
+│    └──init                    //程序初始化模块 
+│    └──tuya                    //涂鸦模块
+│    └──.....
+│    └──.....
+│    └──.....  
+└──
+
+
+
+
+
+###########V1.0.0 版本内容更新
+1. 新功能     aaaaaaaaa
+2. 新功能     bbbbbbbbb
+3. 新功能     ccccccccc
+4. 新功能     ddddddddd

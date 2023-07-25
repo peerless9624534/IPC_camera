@@ -1,0 +1,10 @@
+
+#make clean;make
+#cp ../out/media_sample ../../system/acfs/system/bin/
+make clean;make CONFIG_PTZ=y CONFIG_BABY=y
+cp ../out/media_sample ../../system/babycam/system/bin/
+chmod +x ../../system/babycam/system/bin/media_sample
+cp ../out/media_sample ../../system/babycamEU/system/bin/
+chmod +x ../../system/babycamEU/system/bin/media_sample
+cp ../out/media_sample ../out/media_sample.bin
+chmod +x ../out/media_sample.bin

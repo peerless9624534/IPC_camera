@@ -1,0 +1,682 @@
+;;=============================================
+
+;;	LRDS106(Baby Monitor Camera S1 PRO) 
+
+;;=============================================
+Release Date:
+	2022/12/13
+Firmware Version:
+	v2.1.3.2
+Author:
+	 Xiangjie Chen
+
+commit ID: 3e3d26b05db83c9fe9ac7101a74d45f258b5233f
+Firmware Description：
+主要功能：
+算法库更换，使用算法团队提供的人形人脸侦测算法优化人形人脸检测结果
+;;=============================================
+
+;;	LRDS106(Baby Monitor Camera S1 PRO) 
+
+;;=============================================
+Release Date:
+	2022/12/13
+Firmware Version:
+	v2.1.3.1
+Author:
+	 Baoquan Xu
+
+commit ID: 7e98520d2461324ea5563eb652b1e352a9b1f7b5
+Firmware Description：
+主要功能：
+1，修复PHY启动异常
+2，SD卡挂载跳过一场文件
+3，指示灯默认不开启
+4，单曲播放10-12分钟
+;;=============================================
+
+;;	LRDS106(Baby Monitor Camera S1 PRO) 
+
+;;=============================================
+Release Date:
+	2022/11/08
+Firmware Version:
+	v2.1.3
+Author:
+	 Baoquan Xu
+
+commit ID: 7e98520d2461324ea5563eb652b1e352a9b1f7b5
+Firmware Description：
+主要功能：
+OTA升级正式版本2.1.3，OTA升级包剔除了7月8号哭声库更新
+;;=============================================
+
+;;	LRDS106(Baby Monitor Camera S1 PRO) 
+
+;;=============================================
+Release Date:
+	2022/07/08
+Firmware Version:
+	v2.1.1.9
+Author:
+	 Xiangjie
+
+commit ID: 56ba30a7094a1834585822d84f4cfacb0863f954
+Firmware Description：
+主要功能：
+版本号对应发出的测试版本
+
+;;=============================================
+Release Date:
+	2022/07/06
+Firmware Version:
+	v2.1.1.7
+Author:
+	 Xiangjie
+
+commit ID: ced34f586243c3e4540061793f9f146f8d44c32a
+Firmware Description：
+主要功能：
+更新哭声库
+
+;;=============================================
+Release Date:
+	2022/05/25
+Firmware Version:
+	v2.1.1.6
+Author:
+	 Joe Hu
+
+commit ID: 504a9c128e2afaee0cd62a702d0a6be79f53dc3c
+Firmware Description：
+主要功能：
+修复安抚音播放时无法修改音量的问题
+
+;;=============================================
+Release Date:
+	2022/05/25
+Firmware Version:
+	v2.1.1
+Author:
+	 Joe Hu
+
+commit ID: a3e55e2b5cf403acd2c90e46e52b9b154fb0d46c
+Firmware Description：
+主要功能：
+1.修改水印读取方式，便于后期OTA维护
+
+;;=============================================
+Release Date:
+	2022/05/24
+Firmware Version:
+	v2.1.0.1
+Author:
+	 Xiangjie
+
+commit ID: 62728cfd92ec5a5d91bb99fdc0c607232901d4ed
+Firmware Description：
+主要功能：
+1.增加EU版IPC水印
+
+;;=============================================
+Release Date:
+	2022/05/11
+Firmware Version:
+	v2.0.0.11
+Author:
+	 Xiangjie
+
+commit ID: 453d011c261cbf8a9aa6cdd6706041e14dcddf1d
+Firmware Description：
+主要功能：
+1.优化睡眠监测代码，入睡时间不再使用临时睡眠开始时间参数，精确判定入睡时刻 
+2.优化项目代码，消除在编译过程中出现的所有警告
+
+;;=============================================
+Release Date:
+	2022/05/10
+Firmware Version:
+	v2.0.0.10
+Author:
+	 Xiangjie
+
+commit ID: 7d5cf635f5c834b2c5c7ccb8695de79afe47c018
+Firmware Description：
+主要功能：
+1.优化睡眠监测代码，睡眠监测开关默认关闭 
+2.AA指令显示数据改为包括今天在内的7天总数据
+
+;;=============================================
+Release Date:
+	2022/05/09
+Firmware Version:
+	v2.0.0.9
+Author:
+	 Xiangjie
+
+commit ID: 5c207fa69824c85f4a9aaa07271ef1e9b99836d2
+Firmware Description：
+主要功能：
+1.优化睡眠监测代码，修改判断入睡和睡醒的移动次数阈值
+
+;;=============================================
+Release Date:
+	2022/05/09
+Firmware Version:
+	v2.0.0.8
+Author:
+	 Joe Hu
+
+commit ID: 35f146d3262a4edffa3a7823f5023a04c7bbc6ac
+Firmware Description：
+主要功能：
+1.增加机制：长时间（约连续五分钟）无人脸+无运动情况下，停止睡眠统计（不上报）
+2.入睡判断，将入睡阈值降低到0.1 ，增加入睡判断难度，减少误判
+3.优化睡眠监测代码
+
+;;=============================================
+Release Date:
+	2022/05/4
+Firmware Version:
+	v2.0.0.7
+Author:
+	 Joe Hu
+
+commit ID: c754f23e9cd1e6eaa64b67c2b7c234fb0b1ba75d
+Firmware Description：
+主要功能：
+1.增加面部变化时长判断；
+2.调整睡眠监测代码逻辑；
+3.定期记录睡眠状态，以减少异常重启对统计时长的影响
+
+;;=============================================
+Release Date:
+	2022/04/28
+Firmware Version:
+	v2.0.0.6
+Author:
+	 Joe Hu
+
+commit ID: 04f9b8c314ddd942172ff026801ea667975d6c00
+Firmware Description：
+主要功能：
+1.修复夜间模式光感失效问题
+
+
+;;=============================================
+Release Date:
+	2022/04/28
+Firmware Version:
+	v2.0.0.5
+Author:
+	 Joe Hu
+
+commit ID: 87177414345a8ba0f806467200a0a8435da67273
+Firmware Description：
+主要功能：
+1.修复恢复出厂设置时，安抚音不还原的问题;
+2.睡眠监测开关默认开启(待APP设置开关后默认关闭);
+3.Media_sample不再对配置文件版本进行比较
+4.增加OTA打包示例
+;;=============================================
+Release Date:
+	2022/04/28
+Firmware Version:
+	v2.0.0.4
+Author:
+	 Xiangjie
+
+commit ID: 30580be223c3b40c5bbd95b073fcbf063fe60d41
+Firmware Description：
+主要功能：
+1.优化数据统计功能
+
+;;=============================================
+Release Date:
+	2022/04/28
+Firmware Version:
+	v2.0.0.3
+Author:
+	Joe Hu
+
+commit ID: ca0272374ac63366631d74e6dc0e273c188ae0de
+Firmware Description：
+主要功能：
+1.自定义安抚音优化,替换时无需重启
+
+;;=============================================
+Release Date:
+	2022/04/28
+Firmware Version:
+	v2.0.0.2
+Author:
+	Xiangjie
+
+commit ID: 22c60b6f1137643283ec1babc9e5c4de62044f47
+Firmware Description：
+主要功能：
+1.优化睡眠监测
+2.修复北美版SD卡挂载问题
+
+;;=============================================
+Release Date:
+	2022/04/27
+Firmware Version:
+	v2.0.0.1
+Author:
+	Xiangjie
+
+commit ID: 136550e66cb1e9de7e661de78fae806d9452c581
+Firmware Description：
+主要功能：
+1.优化睡眠监测和统计数据功能
+
+;;=============================================
+Release Date:
+	2022/04/25
+Firmware Version:
+	v1.8.7.2
+Author:
+	Xiangjie
+
+commit ID: db93a783857c53b8bbd1cad765d2b92ca33b030e
+Firmware Description：
+主要功能：
+1.还原哭声侦测动态库
+
+;;=============================================
+Release Date:
+	2022/04/22
+Firmware Version:
+	v1.8.7.1
+Author:
+	Albert Liu
+
+commit ID: 0dec6f4bf9a59448e9a79f684a33a7f80d627371
+Firmware Description：
+主要功能：
+1.Sync kernel uImage same as "master" branch
+2.fix motor speed ioctl error in CalibrationProcess
+
+;;=============================================
+Release Date:
+	2022/04/22
+Firmware Version:
+	v1.8.7
+
+commit ID: 05e4e6223b6ce730eb49b43bbbd45bf367c1d889
+Firmware Description：
+主要功能：
+1.更新wifi驱动 
+2.更新哭声侦测动态库
+
+;;=============================================
+Release Date:
+	2022/04/22
+Firmware Version:
+	v1.8.7
+
+commit ID: 540a17ac5ca83ae6d7d1211edaf80d7b314f6a0b
+Firmware Description：
+主要功能：
+1.更改音频文件名称，优化功能
+;;=============================================
+
+;;	LRDS106(Baby Monitor Camera S1 PRO) 
+
+;;=============================================
+Release Date:
+	2022/04/21
+Firmware Version:
+	v1.8.6
+
+commit ID: 799f5cb1ac3e2f204111397e9a8e55bbca339a01
+Firmware Description：
+主要功能：
+1.更改音频文件名称，优化功能
+;;=============================================
+
+;;	LRDS106(Baby Monitor Camera S1 PRO) 
+
+;;=============================================
+Release Date:
+	2022/04/16
+Firmware Version:
+	v1.8.5.8
+
+commit ID: 7f7632ecdb6d8f2a78b97b97e08d4de755b1fed7
+Firmware Description：
+主要功能：
+1.处理音频优先级，优化功能
+;;=============================================
+
+;;	LRDS106(Baby Monitor Camera S1 PRO) 
+
+;;=============================================
+Release Date:
+	2022/04/15
+Firmware Version:
+	v1.8.5.7
+
+commit ID: 4969be4340dd7be056fdcd93a2e6b9f6a0adbc7c
+Firmware Description：
+主要功能：
+1.支持WIFI无密码连接
+
+﻿;;=============================================
+Release Date:
+	2022/04/09
+Firmware Version:
+	v1.8.5.6
+
+commit ID: a7664ab86557dfafbf926e2ad93d08e2cd29e510
+Firmware Description：
+主要功能：
+1.OTA功能支持文件夹升级
+
+﻿;;=============================================
+Release Date:
+	2022/04/11
+Firmware Version:
+	v1.8.5.5
+
+commit ID: 3784ef5e21192c0118e29265aaf003c3d7bf9c0a
+Firmware Description：
+主要功能：
+1.完善睡眠检测功能；
+2.完善数据统计功能；
+3.隐藏watchdog打印；
+4.调整日期设置方式；
+
+;;=============================================
+Release Date:
+	2022/04/09
+Firmware Version:
+	v1.8.5.4
+
+commit ID: 9aeba9a8ad365d16b9b8d8e6eea0a6316efc858e
+Firmware Description：
+主要功能：
+1.优化音频播放及音量调节功能
+;;=============================================
+
+;;	LRDS106(Baby Monitor Camera S1 PRO) 
+
+﻿;;=============================================
+Release Date:
+	2022/03/07
+Firmware Version:
+	v1.8.5.3
+
+commit ID: e0dff4d87e5e0e4ba220da28303a502f6c34cf8c
+Firmware Description：
+主要功能：
+1.更新uImage和8189fs.ko（代码在master）；
+2.更新EU文件夹
+
+;;=============================================
+Release Date:
+	2022/03/06
+Firmware Version:
+	v1.8.5.3
+
+commit ID: dd5fad5ff319aba37b21f7b74caab3abae7f015f
+Firmware Description：
+主要功能：
+1.增加多边形区域检测		OK		
+2.增加睡眠检测部分功能		DOING		
+3.记录7天内事件时间		WAITING	
+4.调整遮脸检测代码逻辑		OK
+5.调整人形检测代码逻辑		OK		
+6.调整音量调节逻辑		OK
+7.调整首次时间同步代码位置	OK	
+
+;;=============================================
+Release Date:
+	2022/03/31
+Firmware Version:
+	v1.8.5.2
+
+commit ID: e280209d59a8c1d7845f8ab9dba3ba26f37d1aee
+Firmware Description：
+主要功能：
+1.优化音频功能，增加异常信息上报；
+
+;;=============================================
+Release Date:
+	2022/03/29
+Firmware Version:
+	v1.8.5.1
+
+commit ID: fb32334c7dd364602f190b3f5461a4c8be7d47cf
+Firmware Description：
+主要功能：
+1.增加暂停及切换音频功能；
+2.增加WiFi密码长度
+
+;;============================================
+Release Date:
+	2022/03/28
+Firmware Version:
+	v1.8.4.2
+
+commit ID: 2eb44216439348c3289f59aa47b21d7eb28b1a3f
+Firmware Description：
+主要功能：
+1.优化哭声算法
+2.打印哭声报警次数
+
+;;=============================================
+Release Date:
+	2022/03/23
+Firmware Version:
+	v1.8.4.1
+
+commit ID: 88a535edcce443da6988be25f645f3d42ed8eb72
+Firmware Description：
+主要功能：
+1.增加音量调节；
+2.修改提示音文件；
+3.禁用无用代码；
+4.修改算法初始化位置；
+5.Debug模式关闭watchdog
+
+
+;;=============================================
+Release Date:
+	2022/03/23
+Firmware Version:
+	v1.8.2.7
+
+commit ID: d401b7e82bdd74eae283eab99b26f70c989ac18c
+Firmware Description：
+主要功能：
+1.优化功能
+
+;;=============================================
+
+;;	LRDS103(Baby Monitor Camera) 
+
+;;============================================
+Release Date:
+	2022/03/21
+Firmware Version:
+	v1.8.2.7
+
+commit ID: 47adc94a11905b171466ab29d109afed39e71022
+Firmware Description：
+主要功能：
+1.实现定制语音及童谣功能
+;;=============================================
+
+;;	LRDS103(Baby Monitor Camera) 
+
+;;============================================
+Release Date:
+	2022/03/11
+Firmware Version:
+	v1.8.2.4
+
+commit ID: 6325b8dbcc5486a81ae950c718e9c8a00af22ab2
+Firmware Description：
+主要功能：
+1.使用人脸识别算法实现遮脸检测功能
+
+;;============================================
+Release Date:
+	2022/03/07
+Firmware Version:
+	v1.8.2.3
+
+commit ID: a054b0fcb7793043ff2a3d9c5dd468d2c0136faa
+Firmware Description：
+主要功能：
+1.更新tuya sdk V4.9.14
+
+;;============================================
+Release Date:
+	2022/03/03
+Firmware Version:
+	v1.8.2.2
+
+commit ID: 554e7bbe3bc9c64ac532876bd7261d9ffaa1a7dc
+Firmware Description：
+主要功能：
+1.解决隐私模式下，无实际录像，但回看显示有记录的问题
+
+;;============================================
+Release Date:
+	2022/02/28
+Firmware Version:
+	v1.8.2.1
+
+commit ID: 3270fec57794a39402ab1761404637e54674b0af
+Firmware Description：
+主要功能：
+1.调试信息增加观看用户数量变化
+
+;;============================================
+Release Date:
+	2022/02/24
+Firmware Version:
+	v1.8.2
+
+commit ID: 978999ace221860458789469d1eb0ca7e95cf8e2
+Firmware Description：
+主要功能：
+1.更新正式版本1.8.2
+2.增加英文版镜像
+
+;;============================================
+Release Date:
+	2022/02/21
+Firmware Version:
+	v1.8.1.2
+
+commit ID: 59ede1342d734d44dc1c7e3274f29ae51156e82d
+Firmware Description：
+主要功能：
+1.增加英文版文件夹;
+2.移除无用语音文件;
+
+;;============================================
+
+Release Date:
+	2022/02/21
+Firmware Version:
+	v1.8.1.1
+
+commit ID: a32f1a387ba05927d89513e6f444112bb5f01e51
+Firmware Description：
+主要功能：
+1.解决反复操作进出观看直播后media_sample进程退出问题
+
+;;=============================================
+Release Date:
+	2022/02/18
+Firmware Version:
+	v1.8.1
+
+commit ID: 4eeb6b6170c2f7d4d6067dd879d096b8d5fbb9b7
+Firmware Description：
+主要功能：
+1.关闭掉线重连机制，也不会重启
+
+;;=============================================
+Release Date:
+	2022/02/17
+Firmware Version:
+	v1.8.0
+
+commit ID: f6274ed279c8d9dc136e65cbff2700b254857b5a
+Firmware Description：
+主要功能：
+1.发布新版本FW 1.8.0
+;;=============================================
+
+;;	LRDS103(Baby Monitor Camera) 
+
+;;============================================
+Release Date:
+	2022/02/16
+Firmware Version:
+	v1.7.2.3
+
+commit ID: b4499cd6cead083b8fcd2c223f3ff9707a932c92
+Firmware Description：
+主要功能：
+1.替换哭声侦测lib文件
+;;============================================
+Release Date:
+	2022/02/11
+Firmware Version:
+	v1.7.2.2
+
+commit ID: de6e6f3ee628f3b9d1fcaefbd85ff55115eacf59
+Firmware Description：
+主要功能：
+1.减少用户模式下，tuya日志的打印
+
+
+;;=============================================
+Release Date:
+	2022/02/09
+Firmware Version:
+	v1.7.2
+
+commit ID: 7ddd499930d863728829917a81fd5fb9f222316a
+Firmware Description：
+主要功能：
+1.优化wifi断线未重连重启设备时间：6分针==>4分钟
+
+
+;;=============================================
+Release Date:
+	2022/01/26
+Firmware Version:
+	v1.7.1.3
+
+commit ID: 0fc4bb7f684f6e9d4b7f9dba82710f6c90e84566
+Firmware Description：
+主要功能：
+1. 记录电机转动位置;
+2. 异常重启不播放提示音;
+3. 文件修改 支持OTA更新;
+
+
+;;============================================
+Release Date:
+	2022/01/24
+Firmware Version:
+	v1.7.1.2
+
+commit ID: 2771532740ea45851c27866f7b92eb52d893d37a
+Firmware Description：
+主要功能：
+1.解决所有功能无法使用问题
+2.解决wifi断开连接后无法重连问题
+
+
+
+
+
